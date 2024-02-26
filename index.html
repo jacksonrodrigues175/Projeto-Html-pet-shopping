@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link rel="stylesheet" href="_css/pg.css" type="text/css">
+</head>
+
+<body>
+    <header>
+
+
+        <div class="input-container">
+            <label for="my-input">oque procura</label>
+            <input type="text" id="my-input" class="input-field">
+          </div>
+
+
+         
+        
+        <a href="#"><img src="_img/petsh.jpg" alt="logo" class="logo"></a>
+        
+        <nav>
+
+            <ul>
+                <li><a class="menu" href="#info">Home</a></li>
+                <li><a class="menu" href="#produtos">Produtos</a></li>
+                <li><a class="menu" href="#pedidos">Delivery</a></li>
+                <li><a class="menu" href="#contato">Contato</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section class="info">
+        <nav class="conteiner">
+            <img class="img" src="_img/dog1.png" alt="">
+
+            <h2 class="text">Melhores rações</h2>
+            <p class="text">Descubra o segredo por trás das melhores rações para seu pet. Desenvolvidas com ingredientes premium e expertise em saúde animal, nossas rações oferecem nutrição completa e sabor irresistível. Escolha qualidade, escolha saúde, escolha o melhor para seu companheiro peludo!</p>
+        </nav>
+
+        <nav class="conteiner">
+            <img class="img" src="_img/cat1.png" alt="">
+            <h2 class="text"> Cuidado especial com seu pet!</h2>
+            <p class="text">ê ao seu pet o cuidado especial que ele merece com nossa linha exclusiva de produtos. Desde rações premium até brinquedos interativos e acessórios de conforto, temos tudo o que você precisa para proporcionar uma vida feliz e saudável ao seu companheiro peludo. Nossos produtos são desenvolvidos com amor e cuidado, priorizando a segurança, o conforto e a diversão do seu pet. Invista no bem-estar do seu amigo de quatro patas e fortaleça ainda mais o vínculo que os une. Cuide com carinho, cuide com dedicação, cuide com produtos que fazem a diferença na vida do seu pet.</p>
+        </nav>
+      
+    </section>
+
+   <!--  <section id="produtos">
+        <div class="product">
+            <h2>Produtos</h2>
+            
+            <ul class="product1">
+                <li >
+                    <p>Ração Golden para cão img</p>
+                    <img src="_img/ração1.jpg" alt="ração">
+                </li>
+
+                <li>
+                    <p>Ração para cão prime</p>
+                    <img src="_img/ração-prime.jpg" alt="ração-prime">
+                </li>
+
+                <li>
+                    <p>Ração Premium para gatos</p>
+                    <img src="_img/PREMIUM-CAT.webp" alt="ração-para-gatos">
+                </li>
+
+                <li>
+                    <p>Ração Prime para gatos</p>
+                    <img src="_img/ração-primecat.jpg" alt="">
+                </li>
+
+                <li>
+                    <p>Brinquedos para seu pet</p>
+                    <img src="_img/Brinquedos.webp" alt="Brinquedos">
+                </li>
+            </ul>
+
+            
+                
+        </div>
+
+
+    </section>
+
+    -->
+
+    <section id="produtos"> 
+
+        <a href="#"><div class="product-container">
+        <div class="product-card">
+          <img src="_img/PREMIUM-CAT.webp" alt="Produto 1" class="product-image">
+          <h2 class="product-title">Ração premium Gato</h2>
+        </div></a>
+        <a href="#"> 
+        <div class="product-card">
+          <img src="_img/ração-primecat.jpg" alt="Produto 2" class="product-image">
+          <h2 class="product-title">Ração prime gato</h2>
+        </div></a>
+        <a href="#"> <div class="product-card">
+          <img src="_img/ração-prime.jpg" alt="Produto 3" class="product-image">
+          <h2 class="product-title">Ração Prime Cachorro</h2>
+        </div></a>
+
+        <a href="#"><div class="product-card">
+            <img src="_img/ração1.jpg" alt="Produto 3" class="product-image">
+            <h2 class="product-title">Ração Golden Cachorro</h2>
+          </div></a>
+
+          <a href="#"><div class="product-card">
+            <img src="_img/passaro.png" alt="Produto 3" class="product-image">
+            <h2 class="product-title">Ração para passaro</h2>
+          </div></a>
+
+          <a href="#"><div class="product-card">
+            <img src="_img/Brinquedos.webp" alt="Produto 3" class="product-image">
+            <h2 class="product-title">Brinquedos em geral</h2>
+          </div></a>
+        <!-- Adicione mais produtos aqui -->
+      </div>
+       
+    </section>
+
+
+    <section id="pedidos">
+        <div class="container">
+            <h2>Faça seu pedido por delivery</h2>
+            <form action="https://formsubmit.co/jackson.loureiro@ba.estudante.senai.br" method="post">
+                <div class="form-group">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" required>               
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Telefone</label>
+                    <input type="telefone" id="telefone" name="telefone" required>               
+                </div>
+    
+                <div class="form-group">
+                    <label for="Endereço">Endereço</label>
+                    <input type="endereço" id="endereço" name="endereço" required>               
+                </div>
+    
+                <div class="form-group">
+                    <label for="menssage">Digite seu pedido</label>
+                    <textarea name="message" id="message" rows="4" required></textarea>             
+                </div>
+                <button type="submit">Enviar</button>
+                
+            </form>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div>
+            <h2>Contato</h2>
+            <ul>
+                <li>
+                    <P>
+                        Telefone: (75)9999-9999
+                    </P>
+                </li>
+                <li>
+                    <p>Email: petshopS@gmail.com</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+   
+       
+
+    <footer>
+        <p>© 2024 PetShop. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
